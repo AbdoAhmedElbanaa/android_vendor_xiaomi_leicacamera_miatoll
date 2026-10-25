@@ -1,9 +1,15 @@
 # Proprietary Prebuilts for Xiaomi Leica Camera (Miatoll)
 
-Proprietary vendor blobs and prebuilts for Xiaomi Leica Camera v5.0 and ExtraPhoto.
+Proprietary vendor blobs and prebuilts for Xiaomi Leica Camera v5.0 (Build Beta 7.3) and ExtraPhoto.
 Designed for **Xiaomi Miatoll** (`curtana`, `gram`, `joyeuse`, `excalibur`).
 
-## Credits
+> [!IMPORTANT]
+> **Compatibility:** Specifically designed and built for **Android 16 and Android 17 (A16 / A17) ONLY**.
+
+## Build Information
+- **Version:** Leica Camera v5.0
+- **Build Version:** Beta 7.3
+- **Target OS:** Android 16 & Android 17 (A16 / A17 Only)
 - **Camera Port & Builds:** [ℌ𝔞𝔪𝔦𝔡𝔬](https://github.com/Hamido)
 - **Maintainer:** [Abdo Ahmed Elbanaa](https://github.com/AbdoAhmedElbanaa)
 
