@@ -3,6 +3,10 @@
 Proprietary vendor blobs and prebuilts for Xiaomi Leica Camera v5.0 and ExtraPhoto.
 Designed for **Xiaomi Miatoll** (`curtana`, `gram`, `joyeuse`, `excalibur`).
 
+## Credits
+- **Camera Port & Builds:** [ℌ𝔞𝔪𝔦𝔡𝔬](https://github.com/Hamido)
+- **Maintainer:** [Abdo Ahmed Elbanaa](https://github.com/AbdoAhmedElbanaa)
+
 ## Source Tree Location
 ```bash
 vendor/xiaomi/leicacamera_miatoll
