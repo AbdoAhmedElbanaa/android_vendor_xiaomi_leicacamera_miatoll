@@ -1,0 +1,8 @@
+*.pyc
+__pycache__/
+.DS_Store
+*.swp
+*~
+
+# Assembled large APK is generated at build time from split parts
+proprietary/system/priv-app/MiuiCamera/MiuiCamera.apk
