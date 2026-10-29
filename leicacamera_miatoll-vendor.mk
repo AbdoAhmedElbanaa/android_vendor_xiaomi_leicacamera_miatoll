@@ -30,7 +30,11 @@ PRODUCT_PACKAGES += \
     libgallery_mpbase \
     libmibokeh_gallery \
     librefocus \
-    librefocus_mibokeh
+    librefocus_mibokeh \
+    libmorpho_memory_allocator \
+    libmorpho_panorama_gp3 \
+    libmorpho_sensor_fusion \
+    libcamera_960_mpbase
 
 # MiuiCamera internal libraries
 PRODUCT_COPY_FILES += \
@@ -112,7 +116,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SYMLINKS += \
     $(TARGET_COPY_OUT_SYSTEM)/lib64/libcamera_algoup_jni.xiaomi.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libcamera_algoup_jni.xiaomi.so \
     $(TARGET_COPY_OUT_SYSTEM)/lib64/libcamera_mianode_jni.xiaomi.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libcamera_mianode_jni.xiaomi.so \
-    $(TARGET_COPY_OUT_SYSTEM)/lib64/libcamera_jpegutil_jni.xiaomi.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libcamera_jpegutil_jni.xiaomi.so
+    $(TARGET_COPY_OUT_SYSTEM)/lib64/libcamera_jpegutil_jni.xiaomi.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libcamera_jpegutil_jni.xiaomi.so \
+    $(TARGET_COPY_OUT_SYSTEM)/lib64/libmorpho_memory_allocator.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libmorpho_memory_allocator.so \
+    $(TARGET_COPY_OUT_SYSTEM)/lib64/libmorpho_panorama_gp3.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libmorpho_panorama_gp3.so \
+    $(TARGET_COPY_OUT_SYSTEM)/lib64/libmorpho_sensor_fusion.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libmorpho_sensor_fusion.so \
+    $(TARGET_COPY_OUT_SYSTEM)/lib64/libcamera_960_mpbase.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MiuiCamera/lib/arm64/libcamera_960_mpbase.so
 
 # System library symlinks for MiuiExtraPhoto
 PRODUCT_SYMLINKS += \
